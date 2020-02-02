@@ -1,0 +1,101 @@
+.card {
+    width: 250px;
+    height: 380px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    background-color: gray;
+    margin: 5px;
+}
+
+.description {
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.itemTitle {
+    /* display: block;
+    margin: 0 auto; */
+    text-align: center;
+}
+
+.picture {
+    height: 140px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.add {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: palevioletred;
+}
+
+.close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.header {
+    padding: 5px 5px;
+    box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.75);
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.listItem {
+    color: white;
+    list-style: none;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.list {
+    display: flex;
+}
+
+.cart {
+    height: 30px;
+    filter: invert(1);
+}
+
+.wrapper {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav {
+    display: none;
+}
+
+.logoItem {
+    height: 30px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .nav {
+        display: block;
+    }
+
+
+}
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+@media (min-width: 1281px) {}
